@@ -1,6 +1,6 @@
-FROM melodyn/base-image:latest
+FROM hexletbasics/base-image:latest
 
 WORKDIR /exercises-cpp
 
-COPY --from=melodyn/base-image:latest /tmp/basics/common/* ./
+COPY --from=hexletbasics/base-image:latest /tmp/basics/common/* ./
 COPY . .
