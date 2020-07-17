@@ -6,5 +6,5 @@ services:
   exercises:
     build: .
     volumes:
-      - .:/exercises-css
+      - .:/exercises-cpp
     command: make check

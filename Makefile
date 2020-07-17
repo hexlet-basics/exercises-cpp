@@ -1,15 +1,16 @@
 -include /opt/basics/common/common.mk
 
+compose-setup: compose-build
+
 compose:
 	docker-compose up
-
-compose-setup: compose-build compose-install
 
 compose-build:
 	docker-compose build
 
-compose-install:
-	docker-compose run exercises npm ci
+compose-bash:
+	docker-compose run exercises bash
 
-code-lint:
-	npx eslint modules
+compose-test:
+	docker-compose run exercises make test
+
