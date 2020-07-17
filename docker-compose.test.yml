@@ -1,0 +1,9 @@
+---
+
+version: '2'
+
+services:
+  sut:
+    build: .
+#    command: make check
+    command: echo "Ok"
