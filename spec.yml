@@ -1,0 +1,7 @@
+---
+
+language:
+  docker_image: "hexletbasics/exercises-cpp"
+  extension: cpp
+  exercise_filename: main.cpp
+  exercise_test_filename: test.cpp
