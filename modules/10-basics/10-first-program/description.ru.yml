@@ -13,7 +13,7 @@ theory: |
   ```cpp
   main()
   {
-    printf("Hello, World!");  
+    printf("Hello, World!");
   }
   ```
 
@@ -31,7 +31,7 @@ instructions: |
   int main()
   {
       //BEGIN
-      printf("Hello1asdasdas, World!");
+      printf("Hello, World!");
       //END
   }
   ```
