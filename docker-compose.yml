@@ -4,7 +4,5 @@ version: '3'
 
 services:
   exercises:
-    build: .
-    volumes:
-      - .:/exercises-cpp
+    image: hexletbasics/exercises-cpp:cached
     command: make check
