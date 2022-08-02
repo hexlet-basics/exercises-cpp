@@ -20,7 +20,7 @@ using namespace std;
 int main() {
   FILE *fp;
   fp = popen("./solution.out", "r");
-  string expected = "Hello, World!";
+  string expected = "Hello, World!\n";
   char result[sizeof(expected)];  
   fgets(result, sizeof(result), fp);
   pclose(fp);
