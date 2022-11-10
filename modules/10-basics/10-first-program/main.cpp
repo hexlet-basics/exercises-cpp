@@ -1,8 +1,9 @@
-#include <stdio.h>
+#include <iostream> 
 
 int main()
 {
     //BEGIN
-    printf("Hello, World!");
+    std::cout << "Hello, World!";
     //END
+    return 0;
 }
