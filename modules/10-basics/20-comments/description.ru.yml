@@ -9,6 +9,7 @@ theory: |
   {
     // Удалить вывод в консоль перед запуском в продакшене
     std::cout << "Hello World!"
+    return 0;
   }
   ```
   Комментарии в С++ бывают двух видов:
@@ -34,6 +35,7 @@ theory: |
   int main()
   {
     std::cout << "Hello World!"
+    return 0;
   }
   ```
 
