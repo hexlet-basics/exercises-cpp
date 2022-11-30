@@ -1,9 +1,8 @@
-//begin
+// BEGIN
 #include <iostream>
 
-int main()
-{
+int main() {
   std::cout << "Hello, Code Basics!";
-  return 0;           
+  return 0;
 }
-//end
+// END
