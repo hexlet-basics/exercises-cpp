@@ -4,7 +4,7 @@
 #ifndef NDEBUG
 #   define ASSERT(condition, message) \
     do { \
-        if (! (condition)) { \
+        if (!(condition)) { \
             std::cerr << "Assertion `" #condition "` failed in " << __FILE__ \
                       << " line " << __LINE__ << ": " << message << std::endl; \
             std::terminate(); \
@@ -15,15 +15,15 @@
 #endif
 
 
-using namespace std;
-
 int main() {
   FILE *fp;
   fp = popen("./solution.out", "r");
-  string expected = "Hello Jon Snow!";
-  char result[sizeof(expected)];  
+  std::string expected = "Hello Jon Snow!";
+  char result[sizeof(expected)];
   fgets(result, sizeof(result), fp);
   pclose(fp);
 
-  ASSERT(result == expected,  "\nExpected: \"" + string(result) + "\" to be: \"" + expected +"\"");
+  ASSERT(
+    result == expected,
+    "\nExpected: \"" + std::string(result) + "\" to be: \"" + expected +"\"");
 }

@@ -1,9 +1,8 @@
-#include <iostream> 
+#include <iostream>
 
-int main()
-{
-    //BEGIN
-    std::cout << "Hello, World!";
-    //END
-    return 0;
+int main() {
+  // BEGIN
+  std::cout << "Hello, World!";
+  // END
+  return 0;
 }
