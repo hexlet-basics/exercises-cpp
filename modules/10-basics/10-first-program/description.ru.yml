@@ -11,8 +11,7 @@ theory: |
   В языке C++ эта программа будет выглядеть так:
 
   ```cpp
-  main()
-  {
+  main() {
     std::cout << "Hello, World!";
   }
   ```
@@ -29,8 +28,7 @@ instructions: |
   ```cpp
   #include <iostream> 
 
-  int main()
-  {
+  int main() {
     //BEGIN
     std::cout << "Hello, World!";
     //END
