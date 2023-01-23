@@ -2,9 +2,7 @@
 
 int main() {
   // BEGIN
-  using namespace std;
-
   int likes_count = 2;
-  cout << likes_count << endl;
+  std::cout << likes_count << std::endl;
   // END
 }
