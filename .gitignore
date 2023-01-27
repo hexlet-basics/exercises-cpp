@@ -10,3 +10,6 @@
 *.exe
 *.out
 *.app
+
+# IDE
+.vscode
