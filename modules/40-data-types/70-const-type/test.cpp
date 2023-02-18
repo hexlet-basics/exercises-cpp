@@ -2,7 +2,7 @@
 
 int main() {
   FILE *fp;
-  fp = popen("./solution.out", "r");
+  fp = popen("./solution.out 0.5", "r");
   std::string expected = "3.14\n";
   std::string actual = "";
   char result[sizeof(expected)];

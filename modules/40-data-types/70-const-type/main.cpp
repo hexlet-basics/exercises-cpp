@@ -1,10 +1,10 @@
 #include <iostream>
 
-int main() {
-  // BEGIN
+int main(int argc, char *argv[]) {
   using centimeters = double;
+  centimeters radius = atof(argv[1]);
+  // BEGIN
   constexpr double kPi = 3.14;
-  centimeters radius = 0.5;
 
   std::cout << 2 * kPi * radius << std::endl;
   // END
