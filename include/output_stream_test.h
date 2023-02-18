@@ -5,12 +5,14 @@
 #include <string>
 
 #ifndef NDEBUG
-#   define ASSERT(condition, message) \
+#   define ASSERT(condition, message, result) \
     do { \
         if (!(condition)) { \
             std::cerr << "Assertion `" #condition "` failed in " << __FILE__ \
                       << " line " << __LINE__ << ": " << message << std::endl; \
             std::terminate(); \
+        } else { \
+            std::cout << result; \
         } \
     } while (false)
 #else
