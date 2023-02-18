@@ -12,6 +12,7 @@
                       << " line " << __LINE__ << ": " << message << std::endl; \
             std::terminate(); \
         } else { \
+            std::cout << "Test Passed!!!" << std::endl; \
             std::cout << result; \
         } \
     } while (false)
