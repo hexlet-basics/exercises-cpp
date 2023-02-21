@@ -10,5 +10,6 @@ int main() {
 
   ASSERT(
     result == expected,
-    "\nExpected: \"" + std::string(result) + "\" to be: \"" + expected +"\"");
+    "\nExpected: \"" + std::string(result) + "\" to be: \"" + expected +"\"",
+    result);
 }
