@@ -14,5 +14,6 @@ int main() {
 
   ASSERT(
     actual == expected,
-    "\nExpected: \"" + actual + "\" to be: \"" + expected +"\"");
+    "\nExpected: \"" + actual + "\" to be: \"" + expected +"\"",
+     actual);
 }
