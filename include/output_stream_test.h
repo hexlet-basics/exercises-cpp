@@ -12,8 +12,8 @@
                       << " line " << __LINE__ << ": " << message << std::endl; \
             std::terminate(); \
         } else { \
-            std::cout << "Test Passed!!!" << std::endl; \
-            std::cout << result; \
+            std::cout << "Test Passed!!!" \
+                      << '\n' << "Output: " << result << std::endl; \
         } \
     } while (false)
 #else

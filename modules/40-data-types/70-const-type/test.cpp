@@ -7,13 +7,11 @@ int main() {
   std::string actual = "";
   char result[sizeof(expected)];
 
-  while(fgets(result, sizeof(result), fp)) {
-      actual += result;
-    }
-   pclose(fp);
+ fgets(result, sizeof(result), fp);
+  pclose(fp);
 
   ASSERT(
-    actual == expected,
-    "\nExpected: \"" + actual + "\" to be: \"" + expected +"\"",
-     actual);
+    result == expected,
+    "\nExpected: \"" + std::string(result) + "\" to be: \"" + expected +"\"",
+    result);
 }
