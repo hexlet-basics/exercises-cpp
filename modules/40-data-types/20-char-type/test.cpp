@@ -3,13 +3,13 @@
 int main() {
   FILE *fp;
   fp = popen("./solution.out", "r");
-  std::string expected = "Э\n";
+  std::string expected = "U";
   char result[sizeof(expected)];
   fgets(result, sizeof(result), fp);
   pclose(fp);
 
   ASSERT(
     result == expected,
-    "\nExpected: \"" + std::string(result) + "\" to be: \"" + expected +"\"",
+    "\nExpected: \"" + std::string(expected) + "\" to be: \"" +  std::string(result) +"\"",
     result);
 }
