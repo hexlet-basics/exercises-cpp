@@ -1,8 +1,8 @@
-#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
-#include "doctest.h"
+#include <iostream>
 
-// BEGIN
-int sum(int a, int b) {
-  return a + b;
+int main() {
+  // BEGIN
+  int num { 42 };
+  std::cout << num;
+  // END
 }
-// END
