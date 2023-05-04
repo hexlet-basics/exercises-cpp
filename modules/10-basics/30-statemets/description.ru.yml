@@ -38,9 +38,9 @@ instructions: |
   Вывод в поток `std::cout` не умеет самостоятельно делать перевод строки, по этому это надо указать явно управляющим символом "\n" или воспользоваться функцией `endl`.
   
   ```cpp
-  std::cout <<  "Mother of Dragons\n"
-  std::cout <<  "Mother of Dragons" << "\n"
-  std::cout <<  "Mother of Dragons" << std::endl
+  std::cout <<  "Mother of Dragons\n";
+  std::cout <<  "Mother of Dragons" << "\n";
+  std::cout <<  "Mother of Dragons" << std::endl;
   ```
   
    Подсказка:
