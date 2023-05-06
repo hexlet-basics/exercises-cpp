@@ -46,8 +46,8 @@ theory: |
 
   int main() {
     int num_in;
-    std::cout << "The num_out = " << num_out << endl;
-    std::cout << "The num_in = " << num_in << endl;
+    std::cout << "The num_out = " << num_out << std::endl;
+    std::cout << "The num_in = " << num_in << std::endl;
   }
   ```
 
