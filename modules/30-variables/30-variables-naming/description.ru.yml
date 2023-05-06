@@ -7,10 +7,10 @@ theory: |
   #include <iostream>
 
   int main() {
-  int user_age = 0;
-  std::cout << "Enter your age: " << std::endl;
-  std::cin >> user_age; // объект cin отвечает за стандартный ввод
-  std::cout << user_age << std::endl;
+    int user_age = 0;
+    std::cout << "Enter your age: " << std::endl;
+    std::cin >> user_age; // объект cin отвечает за стандартный ввод
+    std::cout << user_age << std::endl;
   }
   ```
 
