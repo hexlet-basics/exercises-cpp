@@ -1,5 +1,15 @@
-#include "main.cpp"
+#include "../../../include/output_stream_test.h"
 
-TEST_CASE("testing the sum function") {
-    CHECK_EQ(sum(), 11);
+int main() {
+  FILE *fp;
+  fp = popen("./solution.out", "r");
+  std::string expected = "11";
+  char result[sizeof(expected)];
+  fgets(result, sizeof(result), fp);
+  pclose(fp);
+
+  ASSERT(
+    result == expected,
+    "\nExpected: \"" + std::string(result) + "\" to be: \"" + expected +"\"",
+    result);
 }
