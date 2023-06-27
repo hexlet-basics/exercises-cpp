@@ -1,5 +1,4 @@
 #/bin/bash
-echo 'with0'
 set -e
 
 g++ -std=c++17 -O0 -o solution.out main.cpp -lm 2>&1
