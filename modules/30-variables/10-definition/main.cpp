@@ -5,4 +5,5 @@ int main() {
   int num { 42 };
   std::cout << num;
   // END
+  return 0;
 }
