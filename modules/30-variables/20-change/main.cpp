@@ -1,10 +1,9 @@
-#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
-#include "doctest.h"
+#include <iostream>
 
-int sum() {
+int main() {
   int num = 10;
   // BEGIN
   num += 1;
   // END
-  return num;
+  std::cout << num;
 }
