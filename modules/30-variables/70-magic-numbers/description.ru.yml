@@ -23,11 +23,11 @@ theory: |
   ```cpp
   int main() {
     auto dollars_in_euro = 1.25;
-    int roubles_in_dollar = 60;
+    int rubles_in_dollar = 60;
 
     int euros = 1000;
     auto dollars = euros * dollars_in_euro; // 1250
-    auto rubles = dollars * roubles_in_dollar; // 75000
+    auto rubles = dollars * rubles_in_dollar; // 75000
 
     std::cout << rubles << std::endl; // => 75000
   }
