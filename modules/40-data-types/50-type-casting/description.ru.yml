@@ -49,7 +49,7 @@ theory: |
   int main() {
     int x { 5 };
     int y { 4 };
-    double d_result { (double)x / y }; / x преобразуется в тип double
+    double d_result { (double)x / y }; // x преобразуется в тип double
   }
   ```
 
