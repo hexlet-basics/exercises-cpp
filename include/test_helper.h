@@ -1,4 +1,5 @@
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#define DOCTEST_CONFIG_COLORS_ANSI
 #include "doctest.h"
 
 std::string get_output(int size, std::string argsLine) {
