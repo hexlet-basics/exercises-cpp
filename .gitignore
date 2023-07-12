@@ -10,6 +10,8 @@
 *.exe
 *.out
 *.app
+run_test
+run_solution
 
 # IDE
 .vscode

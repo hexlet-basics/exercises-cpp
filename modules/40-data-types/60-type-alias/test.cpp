@@ -1,17 +1,8 @@
-#include "../../../include/output_stream_test.h"
+#include "test_helper.h"
 
-int main() {
-  FILE *fp;
-  fp = popen("./solution.out", "r");
+TEST_CASE("testing solution") {
   std::string expected = "3520";
-  std::string actual = "";
-  char result[sizeof(expected)];
+  std::string actual = get_output(sizeof(expected));
 
-  fgets(result, sizeof(result), fp);
-  pclose(fp);
-
-  ASSERT(
-    result == expected,
-    "\nExpected: \"" + std::string(result) + "\" to be: \"" + expected +"\"",
-    result);
+  CHECK(actual == expected);
 }

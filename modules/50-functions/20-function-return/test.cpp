@@ -1,17 +1,6 @@
-#include "../../../include/output_stream_test.h"
+#include "test_helper.h"
+#include "main.cpp"
 
-int main() {
-  FILE *fp;
-  fp = popen("./solution.out 0.5", "r");
-  std::string expected = "hurray! hurray! hurray!";
-  std::string actual = "";
-  char result[sizeof(expected)];
-
- fgets(result, sizeof(result), fp);
-  pclose(fp);
-
-  ASSERT(
-    result == expected,
-    "\nExpected: \"" + std::string(result) + "\" to be: \"" + expected +"\"",
-    result);
+TEST_CASE("testing the sum function") {
+  CHECK(SayHurrayThreeTimes() == "hurray! hurray! hurray!");
 }

@@ -1,15 +1,8 @@
-#include "../../../include/output_stream_test.h"
+#include "test_helper.h"
 
-int main() {
-  FILE *fp;
-  fp = popen("./solution.out 31600000", "r");
+TEST_CASE("testing solution") {
   std::string expected = "31600000 seconds = 365 days\n";
-  char result[sizeof(expected)];
-  fgets(result, sizeof(result), fp);
-  pclose(fp);
+  std::string actual = get_output(sizeof(expected), "31600000");
 
-  ASSERT(
-    result == expected,
-    "\nExpected: \"" + std::string(result) + "\" to be: \"" + expected +"\"",
-    result);
+  CHECK(actual == expected);
 }
