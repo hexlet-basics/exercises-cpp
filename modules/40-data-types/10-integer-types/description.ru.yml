@@ -62,8 +62,8 @@ theory: |
   #define ZERO 0 // определим символьную константу со значением 0
 
   int main() {
-    int int_number = INT_MAX; // 2147483647
-    unsigned u_int_number = ZERO; // 0
+    int int_number { INT_MAX }; // 2147483647
+    unsigned u_int_number { ZERO }; // 0
 
     std::cout << "new value int_number: "
               << int_number + 1 << std::endl;

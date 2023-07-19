@@ -2,7 +2,7 @@
 
 int main() {
   // BEGIN
-  char symbol = 'U';
+  char symbol { 'U' };
   std::cout << symbol;
   return 0;
   // END

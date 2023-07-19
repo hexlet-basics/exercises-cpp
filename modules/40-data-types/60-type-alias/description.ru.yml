@@ -19,8 +19,8 @@ theory: |
   int main() {
     typedef int kilometers_per_hour_t; // определяем kilometers_per_hour_t как псевдоним типа int 
     typedef int hour_t;
-    kilometers_per_hour_t speed = 60;
-    hour_t travel_time = 2;
+    kilometers_per_hour_t speed { 60 };
+    hour_t travel_time { 2 };
   }
   ```
 

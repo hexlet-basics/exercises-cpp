@@ -2,14 +2,14 @@
 
 int main() {
   // BEGIN
-  using volts = int;
+  using volts = int ;
   using amperу = int;
   using watt = int;
 
-  volts voltage = 220;
-  amperу amperage = 16;
+  volts voltage { 220 };
+  amperу amperage { 16 };
 
-  watt power = voltage * amperage;
+  watt power { voltage * amperage };
   std::cout << power;
   // END
 }

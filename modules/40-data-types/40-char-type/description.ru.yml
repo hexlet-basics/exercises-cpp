@@ -9,8 +9,8 @@ theory: |
 
   ```cpp
   int main() {
-    char symbol = 'M';
-    int number = symbol;
+    char symbol { 'M' };
+    int number { symbol };
     std::cout << symbol << std::endl; // => M
     std::cout << number << std::endl; // => 77
     return 0;

@@ -15,8 +15,8 @@ theory: |
   Литералы `true` и `false` могут быть преобразованы в тип `int`, причем истинна будет преобразована в единицу, а ложь в ноль:
 
   ```cpp
-  int is_even = true;
-  int promise = false;
+  int is_even { true };
+  int promise { false };
   std::cout << is_even; // => 1
   std::cout << promise; // => 0
   ```
@@ -24,8 +24,8 @@ theory: |
   Кроме того, любое числовое значение может быть преобразовано неявно в значение `bool`:
 
   ```cpp
-  bool is_even = 0; // false
-  bool promise = 1; // true
+  bool is_even { 0 }; // false
+  bool promise { 1 }; // true
   false == 0; // true
   ```
 
