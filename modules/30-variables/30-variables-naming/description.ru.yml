@@ -7,7 +7,7 @@ theory: |
   #include <iostream>
 
   int main() {
-    int user_age = 0;
+    int user_age { 0 };
     std::cout << "Enter your age: " << std::endl;
     std::cin >> user_age; // объект cin отвечает за стандартный ввод
     std::cout << user_age << std::endl;
@@ -18,7 +18,7 @@ theory: |
 
   ```cpp
   int main() {
-    int x = 0;
+    int x { 0 };
     std::cout << "Enter your age: " << std::endl;
     std::cin >> x; // объект cin отвечает за стандартный ввод
     std::cout << x << std::endl;
