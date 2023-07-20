@@ -2,6 +2,6 @@
 #include "main.cpp"
 
 TEST_CASE("testing the remainder function") {
-  CHECK(remainder(2) == 0);
-  CHECK(remainder(3) == 1);
+  CHECK(Remainder(2) == 0);
+  CHECK(Remainder(3) == 1);
 }
