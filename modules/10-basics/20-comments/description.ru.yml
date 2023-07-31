@@ -8,7 +8,7 @@ theory: |
   ```cpp
   int main() {
     // Удалить вывод в консоль перед запуском в продакшене
-    std::cout << "Hello World!"
+    std::cout << "Hello World!";
     return 0;
   }
   ```
