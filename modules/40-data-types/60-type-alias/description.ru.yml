@@ -42,7 +42,7 @@ theory: |
   ```cpp
   typedef std::vector<std::pair<int, double> > pair_list_t;
   int main() {
-    pair_list_t pair_list
+    pair_list_t pair_list;
   }
   ```
 
