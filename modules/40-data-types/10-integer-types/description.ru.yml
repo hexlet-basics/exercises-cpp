@@ -88,8 +88,8 @@ instructions: |
 
   Пример вывода:
 
-   <pre class='hexlet-basics-output'>
-    87000 seconds = 1 days
+  <pre class='hexlet-basics-output'>
+    86400 seconds = 1 days
   </pre>
 
 tips:
