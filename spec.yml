@@ -5,6 +5,5 @@ language:
   extension: cpp
   exercise_filename: main.cpp
   exercise_test_filename: test.cpp
-  learn_as: first_language
   progress: in_development
   name: C++
