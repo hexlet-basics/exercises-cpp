@@ -9,6 +9,6 @@ int main() {
   auto dollars_count { euros_count * dollars_per_euro };
   std::cout << dollars_count << std::endl;
   auto rubles_count { dollars_count * rubles_per_dollar };
-  std::cout << rubles_count;
+  std::cout << rubles_count << std::endl;
   // END
 }
