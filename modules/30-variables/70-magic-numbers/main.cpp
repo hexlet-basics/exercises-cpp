@@ -8,6 +8,7 @@ int main() {
   int average_temperature { summ_of_temperatures / numbers_of_hours };
 
   std::cout << "Average daily temperature: "
-            << average_temperature;
+            << average_temperature
+            << std::endl;
   // END
 }
