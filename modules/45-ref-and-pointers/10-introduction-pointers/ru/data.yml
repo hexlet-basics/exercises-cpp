@@ -1,0 +1,8 @@
+name: Введение в указатели
+tips:
+  - >
+    [Оператор косвенного
+    обращения](https://learn.microsoft.com/ru-ru/cpp/cpp/indirection-operator-star?view=msvc-170)
+  - >
+    [Оператор address-of:
+    &](https://learn.microsoft.com/ru-ru/cpp/cpp/address-of-operator-amp?view=msvc-170)

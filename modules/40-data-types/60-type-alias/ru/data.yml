@@ -1,0 +1,4 @@
+name: Алиасы типов typedef и using
+tips:
+  - >
+    [Псевдонимы](https://learn.microsoft.com/ru-ru/cpp/cpp/aliases-and-typedefs-cpp?view=msvc-170)

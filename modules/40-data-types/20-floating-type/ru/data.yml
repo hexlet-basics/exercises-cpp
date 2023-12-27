@@ -1,0 +1,4 @@
+name: Типы данных с плавающей точкой
+tips:
+  - >
+    [NaN](https://learn.microsoft.com/ru-ru/cpp/c-runtime-library/reference/nan-nanf-nanl?view=msvc-170)

@@ -1,0 +1,10 @@
+name: Именование переменных
+tips:
+  - |
+    [Google C++ style guide](https://google.github.io/styleguide/cppguide.html)
+  - >
+    [Заголовочные
+    файлы](https://learn.microsoft.com/ru-ru/cpp/cpp/header-files-cpp?view=msvc-170)
+definitions:
+  - name: Стандарт кодирования
+    description: Набор синтаксических и стилистических правил написания кода.

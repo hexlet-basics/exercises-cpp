@@ -1,0 +1,7 @@
+name: Преобразование типов
+tips:
+  - >
+    [static_cast](https://learn.microsoft.com/ru-ru/cpp/cpp/static-cast-operator?view=msvc-170)
+  - >
+    [Преобразования типов и безопасность
+    типов](https://learn.microsoft.com/ru-ru/cpp/cpp/type-conversions-and-type-safety-modern-cpp?view=msvc-170)

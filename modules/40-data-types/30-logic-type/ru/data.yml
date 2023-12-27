@@ -1,0 +1,4 @@
+name: Логический тип
+tips:
+  - |
+    [bool](https://learn.microsoft.com/ru-ru/cpp/cpp/bool-cpp?view=msvc-170)

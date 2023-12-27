@@ -1,0 +1,10 @@
+name: Компиляция и компоновка (линковка)
+tips:
+  - >
+    "Если в редакторе есть запись `// BEGIN` и `// END`, то код нужно писать
+    между этими строчками."
+  - >
+    [Установка gcc в
+    Windows](https://www.digitalocean.com/community/tutorials/c-compiler-windows-gcc)
+  - |
+    [gcc для Linux](https://gcc.gnu.org/onlinedocs)

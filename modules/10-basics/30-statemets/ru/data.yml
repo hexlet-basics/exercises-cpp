@@ -1,0 +1,11 @@
+name: Инструкции (Statements)
+tips:
+  - >
+    [Функция
+    endl](https://learn.microsoft.com/ru-ru/cpp/standard-library/ostream-functions?view=msvc-170#endl)
+
+    [Что такое
+    поток](https://learn.microsoft.com/ru-ru/cpp/standard-library/what-a-stream-is?view=msvc-170)
+
+    [Использование printf в современном
+    С++](https://learn.microsoft.com/ru-ru/archive/msdn-magazine/2015/march/windows-with-c-using-printf-with-modern-c)
