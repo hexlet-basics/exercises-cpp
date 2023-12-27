@@ -1,0 +1,13 @@
+name: Как мы проверяем ваши решения
+definitions:
+  - name: Тесты
+    description: >
+      специальный код, проверяющий программы на корректность, сверяя правильный
+      результат с реальным.
+tips:
+  - |
+    [g++](https://gcc.gnu.org/onlinedocs)
+  - |
+    [TDD](https://ru.wikipedia.org/wiki/Разработка_через_тестирование)
+  - |
+    [Сообщество Хекслета в Telegram](https://t.me/hexletcommunity/12)

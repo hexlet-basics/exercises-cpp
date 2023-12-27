@@ -1,0 +1,5 @@
+name: Виды перегрузок функций
+tips:
+  - >
+    [Перегрузка
+    функций](https://learn.microsoft.com/ru-ru/cpp/cpp/function-overloading?view=msvc-170)

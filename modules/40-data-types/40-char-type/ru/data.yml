@@ -1,0 +1,9 @@
+name: Тип сhar
+tips:
+  - >
+    [setlocale](https://learn.microsoft.com/ru-ru/cpp/c-runtime-library/reference/setlocale-wsetlocale?view=msvc-170)
+  - >
+    [Стандартная
+    библиотека](https://learn.microsoft.com/ru-ru/cpp/build/reference/std-specify-language-standard-version?view=msvc-170)
+  - |
+    [ASCII](https://ru.wikipedia.org/wiki/ASCII)
