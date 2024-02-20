@@ -2,7 +2,7 @@
 
 int main() {
   // BEGIN
-  using volts = int ;
+  using volts = int;
   using amperу = int;
   using watt = int;
 

@@ -3,7 +3,7 @@
 
 // BEGIN
 int GetLength(std::string);
-//END
+// END
 
 int main() {
   int length = GetLength("Code Basics");
