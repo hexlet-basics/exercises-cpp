@@ -10,6 +10,6 @@ int main() {
   amperу amperage { 16 };
 
   watt power { voltage * amperage };
-  std::cout << power;
+  std::cout << power << std::endl;
   // END
 }

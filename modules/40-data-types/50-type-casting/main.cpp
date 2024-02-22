@@ -13,6 +13,6 @@ int main() {
   float f_rubles_count {
       f_dollars_count * static_cast<float>(rubles_per_dollar)
     };
-  std::cout << f_rubles_count;
+  std::cout << f_rubles_count << std::endl;
   // END
 }

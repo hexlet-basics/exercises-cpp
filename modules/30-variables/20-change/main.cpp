@@ -5,6 +5,6 @@ int main() {
   // BEGIN
   num += 1;
   // END
-  std::cout << num;
+  std::cout << num << std::endl;
   return 0;
 }

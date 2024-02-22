@@ -7,7 +7,7 @@ int GetLength(std::string);
 
 int main() {
   int length = GetLength("Code Basics");
-  std::cout << length;
+  std::cout << length << std::endl;
   return 0;
 }
 
