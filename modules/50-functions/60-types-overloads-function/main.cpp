@@ -6,6 +6,6 @@ std::string GetFullName(std::string first_name, std::string last_name) {
 }
 
 std::string GetFullName() {
-  return "Anonimus";
+  return "Anonymous";
 }
 // END
