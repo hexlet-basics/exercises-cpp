@@ -3,5 +3,5 @@
 
 TEST_CASE("testing the GetFullName function") {
   CHECK(GetFullName("John", "Dohe") == "John Dohe");
-  CHECK(GetFullName() == "Anonimus");
+  CHECK(GetFullName() == "Anonymous");
 }
