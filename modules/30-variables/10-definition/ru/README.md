@@ -61,8 +61,8 @@ int main() {
 ```cpp
 int main() {
   string acc = "";
-  acc += "Hello, ";
-  acc += "World";
+  acc = acc + "Hello, ";
+  acc = acc + "World!";
   std::cout << acc;
 }
 ```
