@@ -12,7 +12,7 @@ code-lint:
 	@(for i in $$(find . -type f -name main.cpp); do cpplint --filter=-legal/copyright,-build/include_subdir $$(dirname $$i)/main.cpp ; done)
 
 compile:
-	@(for i in $$(find . -type f -name main.cpp); do cd $$(dirname $$i) && g++ -std=c++17 -c *.cpp ; done)
+	@(for i in $$(find . -type f -name main.cpp); do cd $$(dirname $$i) && g++ -std=c++23 -c *.cpp ; done)
 
 compose-bash:
 	docker compose run exercises bash
