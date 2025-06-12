@@ -34,8 +34,8 @@ int main() {
 
 ```cpp
 int main() {
-  std::cout << 8 / 2;
-  std::cout << 3 * 3 * 3;
+  std::cout << 8 / 2 << std::endl;
+  std::cout << 3 * 3 * 3 << std::endl;
 }
 ```
 
