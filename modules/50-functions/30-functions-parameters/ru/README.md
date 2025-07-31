@@ -43,13 +43,14 @@ int AddOne(int num) {
 
 int main() {
   int number = 1;
-  std::cout << number << std::endl;
 
   int result = { AddOne(number) };
 
   std::cout << "number = " << number << std::endl;
 
   std::cout << "result = " << result << std::endl;
+
+  return 0;
 }
 ```
 
