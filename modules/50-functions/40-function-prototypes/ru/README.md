@@ -13,7 +13,7 @@
  }
 
  std::string GetAbsolutePath(std::string file_name, std::string user_name) {
-   return "home/" + usr_home_dir + "/" + file_name;
+   return "/home/" + usr_home_dir + "/" + file_name;
  }
  ```
 
@@ -36,7 +36,7 @@
 
  // определение
  std::string GetAbsolutePath(std::string file_name, std::string user_name) {
-   return "home/" + usr_home_dir + "/" + file_name;
+   return "/home/" + usr_home_dir + "/" + file_name;
  }
  ```
  Здесь мы определили прототип функции в верхней части. Теперь программа скомпилируется и будет работать.
