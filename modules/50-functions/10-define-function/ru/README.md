@@ -98,8 +98,8 @@ int main() {
 В коде выше мы попытались определить внутри функции `main()`, функцию `Greating()` и получили ошибку компиляции:
 
 <pre class='hexlet-basics-output'>
-  main.cpp:12:3: error: ‘PrintMoto’ was not declared in this scope
- 12 |   PrintMoto();
+  main.cpp:12:3: error: ‘Greating’ was not declared in this scope
+ 12 |   Greating();
     |   ^~~~~~~~~
 </pre>
 
