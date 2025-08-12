@@ -2,6 +2,6 @@
 
 Пример вывода:
 
-<pre class='hexlet-basics-output'>
+```text
   86400 seconds = 1 days
-</pre>
+```

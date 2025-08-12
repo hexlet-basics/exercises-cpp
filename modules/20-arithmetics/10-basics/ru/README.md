@@ -22,7 +22,9 @@ int main() {
 
 После запуска на экране появится результат:
 
-<pre class='hexlet-basics-output'>7</pre>
+```text
+7
+```
 
 Кроме сложения доступны следующие операции:
 * `*` — умножение
@@ -39,7 +41,7 @@ int main() {
 }
 ```
 
-<pre class='hexlet-basics-output'>
+```text
 4
 27
-</pre>
+```

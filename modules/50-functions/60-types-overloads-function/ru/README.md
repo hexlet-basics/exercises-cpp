@@ -30,12 +30,12 @@ int main() {
 
 Результат работы программы:
 
-<pre class='hexlet-basics-output'>
+```text
 User full name: John Doe
 User email: john@gmail.com
 User full name: john
 User email: john@gmail.com
-</pre>
+```
 
 Компилятор может легко сказать, что вызов функции с одним параметром `std::string` должен идти на `GetUserData(std::string)`, а вызов функции с тремя параметрами `std::string` должен идти на `GetUserData(std::string, std::string, std::string)`.
 

@@ -1,8 +1,8 @@
 Изучать язык программирования, по традиции, начинают с программы 'Hello, World!'.
 
-<pre class='hexlet-basics-output'>
-  Hello, World!
-</pre>
+```text
+Hello, World!
+```
 
 В языке C++ эта программа будет выглядеть так:
 
