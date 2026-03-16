@@ -29,14 +29,14 @@ signed char symbol // знаковый, диапазон от -128 до 127
 int main() {
   char symbol = 'Ф';
   return 0;
-} 
+}
 ```
 
-<pre class='hexlet-basics-output'>
+```text
   main.cpp:2:21: error: narrowing conversion of '53412' from 'int' to 'char' [-Wnarrowing]
   2 |     char symbol = 'Ф';
     |                   ^~~
-</pre>
+```
 
 Для работы с символами которые превышают один байт, есть расширенный тип `wchar_t` - под котрый выделяется два байта памяти, а начиная со стандарта С++ 11 `char16_t` и `char32_t`:
 

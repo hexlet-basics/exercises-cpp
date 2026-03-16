@@ -8,10 +8,10 @@
 
 Вот простой пример: помните задание из 1го упражнения, где вам надо было вывести на экран "Hello, World!"?. Допустим, вы допустили небольшую опечатку. Система ответит примерно так:
 
-<pre class='hexlet-basics-output'>
-Assertion `result == expected` failed in test.cpp line 26: 
+```text
+Assertion `result == expected` failed in test.cpp line 26:
 Expected: "Hello, World" to be: "Hello, World!"
-</pre>
+```
 
 Читать это следует так: в ответе ожидалось строка с "Hello, World!" (первая строчка после двойного '='), но в вместо него пришла строка "Hello, World". Строки отличаются символом под номером 12. В данном примере пропущен восклицательный знак.
 
