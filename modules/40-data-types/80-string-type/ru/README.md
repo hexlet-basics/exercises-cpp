@@ -49,7 +49,6 @@ int main() {
   Length domain name: 11
 ```
 
-
 У функции `length()` есть алиас `size()`, который работает идентично:
 
 ```cpp
