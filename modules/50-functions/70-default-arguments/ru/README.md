@@ -50,7 +50,7 @@ void CreateConfigFile(std::string file_path, int port, std::string protocol = "h
 Такой код вызовет ошибку:
 
 ```cpp
-void CreateConfigFile(std::string file_path = "/usr/local/nginx/conf", int port = 80, std::string protocol = "https")
+void CreateConfigFile(std::string file_path = "/usr/local/nginx/conf", int port = 80, std::string protocol = "https");
 
 void CreateConfigFile(std::string file_path = "/usr/local/nginx/conf", int port = 80, std::string protocol = "https") {
   std::ofstream Config(file_path);

@@ -59,12 +59,12 @@ int main() {
 int i_value { 5 };
 double d_value { 7.0 };
 
-int* i_ptr { &iValue };    // ok
-double* d_ptr { &dValue }; // ok
+int* i_ptr { &i_value };    // ok
+double* d_ptr { &d_value }; // ok
 i_ptr = &d_value; // ошибка
 ```
 
-Тип `double` не может указывать на адрес переменной типа `int`. Следующее также некорректно:
+Указатель на `int` не может хранить адрес переменной типа `double`. Следующее также некорректно:
 
 ```cpp
 int* ptr { 5 };
@@ -92,7 +92,7 @@ double* d_ptr{ 0x0012FF7C };
 
 int main() {
   int num { 4 };
-  std::cout << typeid(&int).name() << std::endl;
+  std::cout << typeid(&num).name() << std::endl;
 
   return 0;
 }
@@ -202,7 +202,7 @@ int main() {
 }
 ```
 
-Для хранения указателей так же, как и для обычных приманных выделяется память.
+Для хранения указателей так же, как и для обычных переменных выделяется память.
 
 ## Размер указателей
 
@@ -212,8 +212,8 @@ int main() {
 char* ch_ptr {}; // char равен 1 байту
 int* i_ptr {}; // int обычно равен 4 байтам
 
-std::cout << sizeof(ch_ptr) << std::endl; // выводит  4
-std::cout << sizeof(i_ptr) << std::endl; // выводит 4
+std::cout << sizeof(ch_ptr) << std::endl; // выводит 8
+std::cout << sizeof(i_ptr) << std::endl; // выводит 8
 ```
 
 Размер указателя всегда один и тот же. Это связано с тем, что указатель — это просто адрес памяти, а количество битов, необходимых для доступа к адресу памяти на данной машине, всегда постоянно.

@@ -56,7 +56,7 @@ int main() {
 #include <cstdlib>
 
 int main() {
-  return EXIT_SUCCESS // эквивалентно 0
+  return EXIT_SUCCESS; // эквивалентно 0
 }
 ```
 

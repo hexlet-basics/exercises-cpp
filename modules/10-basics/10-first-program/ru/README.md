@@ -7,7 +7,7 @@ Hello, World!
 В языке C++ эта программа будет выглядеть так:
 
 ```cpp
-main() {
+int main() {
   std::cout << "Hello, World!";
 }
 ```

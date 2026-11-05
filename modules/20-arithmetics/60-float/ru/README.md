@@ -13,7 +13,7 @@ std::cout << (0.2 + 0.1);
 
 int main() {
   std::cout << INT_MAX; // => 2147483647
-  std::cout << INT_MIN; // => -32767
+  std::cout << INT_MIN; // => -2147483648
 }
 ```
 

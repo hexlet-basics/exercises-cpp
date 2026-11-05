@@ -1,7 +1,7 @@
 Вспомним нашу первую программу:
 
 ```cpp
-main() {
+int main() {
   std::cout << "Hello, World!";
 }
 ```
