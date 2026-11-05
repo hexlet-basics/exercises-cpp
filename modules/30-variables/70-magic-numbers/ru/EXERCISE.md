@@ -9,6 +9,7 @@ std::cout << "Average daily temperature: " << 588 / 24;
 Избавьтесь от магических чисел, создав новые переменные, а затем выведите текст на экран.
 
 Получится так:
+
 ```text
 Average daily temperature: 24
 ```

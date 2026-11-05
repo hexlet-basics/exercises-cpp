@@ -2,7 +2,7 @@
 
 int main() {
   // BEGIN
-  int likes_count { 2 };
-  std::cout << likes_count << std::endl;
+  int max_login_attempts { 2 };
+  std::cout << max_login_attempts << std::endl;
   // END
 }
