@@ -9,7 +9,7 @@
 #include <fstream> // библиотека для работы с файлами
 
 void CreateConfigFile(std::string file_path = "/usr/local/nginx/conf") {
-  std::ofstream Config(file_path); // создаем конфигурационный фаил
+  std::ofstream Config(file_path); // создаем конфигурационный файл
   Config.close(); // и тут же закрываем его 
 }
 ```
@@ -47,7 +47,7 @@ void CreateConfigFile(std::string file_path, int port, std::string protocol = "h
 
 Аргументы по умолчанию могут быть объявлены только один раз, то есть аргумент по умолчанию может быть объявлен либо в прототипе функции, либо в определении, но не в обеих сразу.
 
-Такой код вызовит ошибку:
+Такой код вызовет ошибку:
 
 ```cpp
 void CreateConfigFile(std::string file_path = "/usr/local/nginx/conf", int port = 80, std::string protocol = "https")
@@ -71,7 +71,7 @@ void CreateConfigFile(std::string file_path, int port);
 void CreateConfigFile(std::string file_path, std::string port = "80");
 ```
 
-Теперь если вызвать функцию `CreateConfigFile("/usr/local/nginx/conf")`, то в конфигурационный файл будет записано значение порта `80`.
+Теперь, если вызвать функцию `CreateConfigFile("/usr/local/nginx/conf")`, то в конфигурационный файл будет записано значение порта `80`.
 
 Однако важно отметить, что необязательные параметры не учитываются в отношении параметров, которые делают функцию уникальной. Следовательно, следующее недопустимо:
 

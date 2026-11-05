@@ -1,5 +1,5 @@
 ---
-name: Тип сhar
+name: Тип char
 tips:
   - >
     [setlocale](https://learn.microsoft.com/ru-ru/cpp/c-runtime-library/reference/setlocale-wsetlocale?view=msvc-170)
